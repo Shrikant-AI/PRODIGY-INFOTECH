@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+
+}
+#search{
+  display: flex;
+  background-color:pink;
+  flex-direction: column;
+  align-items: center;
+  
+ width: 50%;
+}
