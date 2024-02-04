@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  background-color:#468faf;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 20px;
+  /* transition: color 0.3s; */
+}
+
+nav a:hover {
+  background-color: #fc0808; 
+}
+
+section {
+  height: 350px; 
+  padding: 20px;
+  ;
+}
+#home{
+  margin: 100px 50px 50px 50px;
+  background-color: #ced4da;
+  border-radius: 10px;
+}
+#about{
+  margin: 100px 50px 50px 50px;
+  background-color: #ced4da;
+  border-radius: 10px;
+}
+#services{
+  margin: 100px 50px 50px 50px;
+  background-color: #ced4da;
+  border-radius: 10px;
+}
+#contact{
+  margin: 100px 50px 50px 50px;
+  background-color:#ced4da;
+  border-radius: 10px;
+}
